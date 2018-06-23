@@ -8,11 +8,11 @@ describe('Two Fer', function () {
     expect(twoFer.twoFer()).toEqual('One for you, one for me.');
   });
 
-  xit('gives one to Alice if \'Alice\' is given', function () {
+  it('gives one to Alice if \'Alice\' is given', function () {
     expect(twoFer.twoFer('Alice')).toEqual('One for Alice, one for me.');
   });
 
-  xit('gives one to Bob if \'Bob\' is given', function () {
+  it('gives one to Bob if \'Bob\' is given', function () {
     expect(twoFer.twoFer('Bob')).toEqual('One for Bob, one for me.');
   });
 });
